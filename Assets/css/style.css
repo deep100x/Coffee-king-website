@@ -1,0 +1,18 @@
+:root {
+  --color-red: #b34204;
+  --color-coffee: #c0aa83;
+  --color-black: #242424;
+  --color-white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+section {
+  margin: 20px 0;
+  padding: 20px 0;
+}
