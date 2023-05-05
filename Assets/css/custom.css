@@ -35,8 +35,21 @@
   width: 100%;
 }
 
+.p-relative {
+  position: relative;
+}
+
 .d-flex {
   display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-columm {
+  flex-direction: column;
 }
 .justify-center {
   justify-content: center;
@@ -44,9 +57,18 @@
 .justify-between {
   justify-content: space-between;
 }
-.align-center {
+.align-i-center {
   align-items: center;
 }
-.flex-wrap {
-  flex-wrap: wrap;
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.align-c-center {
+  align-content: center;
 }
