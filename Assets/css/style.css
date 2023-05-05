@@ -4,7 +4,9 @@
   --black: #242424;
   --white: #ffffff;
   --hover: color(--brown);
+  --transition02: all 0.2s linear;
   --transition03: all 0.3s linear;
+  --transition05: all 0.5s linear;
   --gutter-width: 12px;
 }
 * {
@@ -19,6 +21,7 @@
   max-width: 1540px;
   margin: auto;
 }
+html,
 body {
   scroll-behavior: smooth;
 }
@@ -210,3 +213,31 @@ header a .fa-solid:hover {
   padding-bottom: 70px;
 }
 /* <!-- ----------ABOUT ENDS HERE---------- --> */
+
+/* <!-- ----------PRODUCTS STARTS HERE---------- --> */
+.products {
+  background-color: var(--black);
+}
+.products .p-card {
+  background-color: var(--white);
+}
+.products .title {
+  transition: var(--transition05);
+}
+.products .p-card:hover .title {
+  color: var(--brown);
+}
+.products .p-card button {
+  background-color: var(--brown);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 7px 22px;
+  transition: var(--transition02);
+}
+.products .p-card button:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+/* <!-- ----------PRODUCTS ENDS HERE---------- --> */
