@@ -37,8 +37,8 @@ section {
 .w-10,
 .w-11,
 .w-12 {
+  padding: 0 var(--gutter-width);
 }
-
 /* <!-- ----------HEADER STARTS HERE---------- --> */
 header {
   position: absolute;
@@ -165,5 +165,48 @@ header a .fa-solid:hover {
 /* <!-- ----------MAIN BANNER ENDS HERE---------- --> */
 
 /* <!-- ----------ABOUT START HERE---------- --> */
-
+.about {
+}
+.about-bg {
+  background-image: url(../images/about-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about .content .title {
+  font-size: 30px;
+  color: var(--brown);
+  font-weight: 600;
+}
+.about .content .sub-title {
+  font-size: 60px;
+  margin-top: 0;
+  color: var(--black);
+}
+.about .content .desc {
+  font-size: 24px;
+  line-height: 45px;
+  padding-bottom: 0;
+  color: var(--black);
+}
+.about .content img {
+  padding: 40px 0;
+}
+.about .title img {
+  margin-left: 15px;
+}
+.about .sub-title {
+  margin: 15px 0 10px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.about .desc {
+  color: var(--black);
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 70px;
+}
 /* <!-- ----------ABOUT ENDS HERE---------- --> */
