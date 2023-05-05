@@ -22,8 +22,7 @@ body {
   scroll-behavior: smooth;
 }
 section {
-  /* margin: 20px 0;
-  padding: 20px 0; */
+  padding: 60px 0;
 }
 
 /* <!-- ----------HEADER STARTS HERE---------- --> */
@@ -36,8 +35,8 @@ header {
 }
 header .menu ul li {
   position: relative;
-  padding: 15px 15px 15px 15px;
-  margin: auto;
+  padding: 15px 20px;
+  gap: 20px;
 }
 header .menu ul li {
   cursor: pointer;
@@ -68,11 +67,12 @@ header .menu ul li:hover .menu-item::after {
   /* transition: var(--transition03); */
 }
 .box {
-  width: 20px;
+  width: 30px;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  font-size: 13px;
+  font-size: 18px;
+  font-weight: 500;
   padding-bottom: 3px;
   color: var(--white);
   background-color: var(--red);
@@ -98,26 +98,58 @@ header a .fa-solid:hover {
 /* <!-- ----------HEADER ENDS HERE---------- --> */
 
 /* <!-- ----------MAIN BANNER STARTS HERE---------- --> */
+
 .main-banner {
   height: 100vh;
   background-image: url("../images/coffee-parallax-2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+}
+.btn1 {
+  perspective: 250px;
 }
 .main-banner .main-btn {
-  width: 180px;
+  cursor: pointer;
   color: var(--white);
   background-color: var(--brown);
-  border: 2px solid transparent;
   font-size: 24px;
   padding: 13px 40px;
   font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition03);
+  border: none;
 }
-.main-banner .main-btn::before {
+.main-banner .main-btn::after {
   content: "";
-}
-.main-banner .main-btn:hover {
+  width: 100%;
+  height: 100%;
+  background-color: var(--red);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: -1;
   transition: var(--transition03);
 }
+.main-banner .main-btn:hover::after {
+  content: "";
+  top: 0;
+  transition: all 0.5s linear;
+  z-index: 1;
+}
+.main-banner .main-btn:hover {
+  transform: rotateY(180deg);
+}
+.main-banner .wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  margin-bottom: -4px;
+}
 /* <!-- ----------MAIN BANNER ENDS HERE---------- --> */
+
+/* <!-- ----------ABOUT START HERE---------- --> */
+
+/* <!-- ----------ABOUT ENDS HERE---------- --> */
