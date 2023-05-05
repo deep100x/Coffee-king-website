@@ -39,6 +39,16 @@
   position: relative;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .d-flex {
   display: flex;
 }
