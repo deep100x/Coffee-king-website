@@ -28,6 +28,12 @@ body {
 section {
   padding: 60px 0;
 }
+.btn {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 13px 40px;
+  font-weight: 600;
+}
 .w-1,
 .w-2,
 .w-3,
@@ -203,7 +209,6 @@ header a .fa-solid:hover {
   text-align: left;
   font-size: 24px;
   font-weight: 600;
-  word-wrap: break-word;
 }
 .about .desc {
   color: var(--black);
@@ -218,14 +223,42 @@ header a .fa-solid:hover {
 .products {
   background-color: var(--black);
 }
+/* products-heading */
+
+/* products-menu */
+.products .menu li {
+  cursor: pointer;
+  font-weight: 600;
+  display: block;
+  line-height: 16px;
+  padding: 30px 20px;
+}
+.products .menu li a {
+  color: var(--white);
+  transition: var(--transition03);
+}
+.products .menu li:hover a {
+  color: var(--brown);
+  border-bottom: 2px solid --brown;
+}
+
+/* products-card */
 .products .p-card {
   background-color: var(--white);
+  padding: 20px 40px;
 }
 .products .title {
   transition: var(--transition05);
 }
 .products .p-card:hover .title {
   color: var(--brown);
+}
+.products .desc {
+  padding: 0 25px;
+}
+.products .p-card button i {
+  font-size: 15px;
+  margin-right: 5px;
 }
 .products .p-card button {
   background-color: var(--brown);
@@ -239,5 +272,29 @@ header a .fa-solid:hover {
 .products .p-card button:hover {
   background-color: var(--black);
   color: var(--white);
+}
+.products .price del {
+  color: var(--black);
+  text-decoration: line-through;
+}
+.products .price {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--brown);
+  padding: 15px 0 30px 0;
+}
+.pro-btn {
+  padding-top: 50px;
+}
+.pro-btn a {
+  background-color: var(--black);
+  border: 2px solid var(--brown);
+  color: var(--brown);
+  transition: var(--transition02);
+}
+.pro-btn a:hover {
+  background-color: var(--white);
+  border: none;
+  color: var(--black);
 }
 /* <!-- ----------PRODUCTS ENDS HERE---------- --> */
