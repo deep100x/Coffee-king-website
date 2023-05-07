@@ -301,47 +301,47 @@ header a .fa-solid:hover {
 /* <!-- ----------PRODUCTS ENDS HERE---------- --> */
 
 /* <!-- ----------BLOG STARTS HERE---------- --> */
-.blog .title {
+.sale .title {
   color: var(--black);
   font-size: 60px;
   margin-top: 6px;
   line-height: 1.1;
 }
-.blog .desc {
+.sale .desc {
   font-size: 18px;
   padding-bottom: 10px;
 }
-.blog .sub-title {
+.sale .sub-title {
   color: var(--brown);
   font-size: 30px;
 }
 /* country using div tag */
-.blog .country {
+.sale .country {
   padding: 5px 0;
 }
-.blog .country a {
+.sale .country a {
   padding: 0px 10px;
   color: var(--black);
   transition: var(--transition03);
 }
-.blog .country::before {
+.sale .country::before {
   content: "\f105";
   font-family: fontAwesome;
   transform: rotate("360deg");
 }
-.blog .country a:hover {
+.sale .country a:hover {
   color: var(--brown);
 }
-.blog-btn {
+.sale-btn {
   padding-top: 20px;
 }
-.blog-btn a {
+.sale-btn a {
   border: 2px solid transparent;
   color: var(--white);
   background-color: var(--brown);
   transition: var(--transition03);
 }
-.blog-btn a:hover {
+.sale-btn a:hover {
   border: 2px solid var(--black);
   color: var(--black);
   background-color: var(--white);
