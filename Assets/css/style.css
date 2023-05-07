@@ -319,10 +319,6 @@ header a .fa-solid:hover {
 }
 /* country using div tag */
 .sale .country {
-  padding: 5px 0;
-}
-.sale .country a {
-  padding: 0px 10px;
   color: var(--black);
   transition: var(--transition03);
 }
@@ -330,8 +326,9 @@ header a .fa-solid:hover {
   content: "\f105";
   font-family: fontAwesome;
   transform: rotate("360deg");
+  margin-right: 7px;
 }
-.sale .country a:hover {
+.sale .country:hover {
   color: var(--brown);
 }
 .sale-btn {
