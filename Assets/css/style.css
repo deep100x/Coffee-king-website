@@ -276,6 +276,7 @@ header a .fa-solid:hover {
 .products .price del {
   color: var(--black);
   text-decoration: line-through;
+  text-decoration-color: var(--red);
 }
 .products .price {
   font-size: 24px;
@@ -284,7 +285,7 @@ header a .fa-solid:hover {
   padding: 15px 0 30px 0;
 }
 .pro-btn {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .pro-btn a {
   background-color: var(--black);
@@ -294,11 +295,55 @@ header a .fa-solid:hover {
 }
 .pro-btn a:hover {
   background-color: var(--white);
-  border: none;
+  border: 2px solid transparent;
   color: var(--black);
 }
 /* <!-- ----------PRODUCTS ENDS HERE---------- --> */
 
 /* <!-- ----------BLOG STARTS HERE---------- --> */
-
+.blog .title {
+  color: var(--black);
+  font-size: 60px;
+  margin-top: 6px;
+  line-height: 1.1;
+}
+.blog .desc {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.blog .sub-title {
+  color: var(--brown);
+  font-size: 30px;
+}
+/* country using div tag */
+.blog .country {
+  padding: 5px 0;
+}
+.blog .country a {
+  padding: 0px 10px;
+  color: var(--black);
+  transition: var(--transition03);
+}
+.blog .country::before {
+  content: "\f105";
+  font-family: fontAwesome;
+  transform: rotate("360deg");
+}
+.blog .country a:hover {
+  color: var(--brown);
+}
+.blog-btn {
+  padding-top: 20px;
+}
+.blog-btn a {
+  border: 2px solid transparent;
+  color: var(--white);
+  background-color: var(--brown);
+  transition: var(--transition03);
+}
+.blog-btn a:hover {
+  border: 2px solid var(--black);
+  color: var(--black);
+  background-color: var(--white);
+}
 /* <!-- ----------BLOG ENDS HERE---------- --> */
