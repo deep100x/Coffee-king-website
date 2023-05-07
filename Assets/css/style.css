@@ -407,3 +407,15 @@ header a .fa-solid:hover {
 
 /* <!-- ----------OUR-STORES STARTS HERE---------- --> */
 /* <!-- ----------OUR-STORES ENDS HERE---------- --> */
+
+/* <!-- ----------DISCOUNT STARTS HERE---------- --> */
+.discount-bg {
+  background-image: url(../images/discount-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.discount .offer {
+  background-color: #f6f6f6;
+}
+/* <!-- ----------DISCOUNT ENDS HERE---------- --> */
