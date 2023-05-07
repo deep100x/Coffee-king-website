@@ -48,6 +48,15 @@ section {
 .w-12 {
   padding: 0 var(--gutter-width);
 }
+.font16px {
+  font-size: 16px;
+}
+.font24px {
+  font-size: 24px;
+}
+.font60px {
+  font-size: 60px;
+}
 /* <!-- ----------HEADER STARTS HERE---------- --> */
 header {
   position: absolute;
@@ -412,7 +421,32 @@ header a .fa-solid:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.discount .offer {
+.discount .content {
   background-color: #f6f6f6;
+  padding: 85px 115px;
+}
+.discount .content h5 {
+  font-size: 24px;
+  color: var(--brown);
+}
+.discount .content h3 {
+  font-size: 60px;
+  color: var(--black);
+  padding-bottom: 48px;
+}
+.discount .content p {
+  color: var(--black);
+  padding: 50px 0;
+}
+.discount-btn {
+  color: var(--white);
+  background-color: var(--brown);
+  border: 2px solid transparent;
+  transition: var(--transition03);
+}
+.discount-btn:hover {
+  color: var(--black);
+  background-color: var(--white);
+  border: 2px solid var(--black);
 }
 /* <!-- ----------DISCOUNT ENDS HERE---------- --> */
