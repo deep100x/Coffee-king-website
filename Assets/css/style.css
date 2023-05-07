@@ -355,19 +355,20 @@ header a .fa-solid:hover {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.gallery .left-data .title {
+.gallery .left-data h2 {
+  padding-top: 20px;
   line-height: 50px;
   font-size: 30px;
   color: var(--black);
 }
-.gallery .left-data .number {
+.gallery .left-data h3 {
   line-height: 100px;
   font-size: 120px !important;
   color: var(--brown);
   padding-bottom: 30px;
 }
-.gallery .left-data .sub-title {
-  line-height: 60px;
+.gallery .left-data h4 {
+  line-height: 50px;
   font-size: 60px;
 }
 .gallery .right-data h3 {
