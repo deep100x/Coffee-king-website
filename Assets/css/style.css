@@ -347,3 +347,27 @@ header a .fa-solid:hover {
   background-color: var(--white);
 }
 /* <!-- ----------BLOG ENDS HERE---------- --> */
+
+/* <!-- ----------GALLERY STARTS HERE---------- --> */
+.gallery-bg {
+  background-image: url(../images/coffee-cup-1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.gallery .title {
+  line-height: 50px;
+  font-size: 30px;
+  color: var(--black);
+}
+.gallery .number {
+  line-height: 100px;
+  font-size: 120px !important;
+  color: var(--brown);
+  padding-bottom: 30px;
+}
+.gallery .sub-title {
+  line-height: 60px;
+  font-size: 60px;
+}
+/* <!-- ----------GALLERY ENDS HERE---------- --> */
