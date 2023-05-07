@@ -67,6 +67,10 @@
 .inline-block {
   display: inline-block;
 }
+/* INLINE */
+.inline {
+  display: inline;
+}
 /* BLOCK */
 .block {
   display: block;
