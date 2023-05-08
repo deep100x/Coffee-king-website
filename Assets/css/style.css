@@ -516,3 +516,12 @@ header a .fa-solid:hover {
   padding: 22px 11px;
 }
 /* <!-- ----------BLOG ENDS HERE---------- --> */
+
+/* <!-- ----------CONTACTS STARTS HERE---------- --> */
+.contact {
+  background-image: url(../images/footer_map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* <!-- ----------CONTACTS ENDS HERE---------- --> */
