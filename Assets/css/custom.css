@@ -91,6 +91,9 @@ img {
   /* margin-left: calc(-1 * var(--gutter-width)); */
   /* margin-right: calc(-1 * var(--gutter-width)); */
 }
+.float-right {
+  float: right;
+}
 /* DISPLAY FLEX */
 .d-flex {
   display: flex;

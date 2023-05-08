@@ -457,19 +457,21 @@ header a .fa-solid:hover {
 .blog-img img:hover {
   transform: scale(1.1);
 }
-.blog .title {
+.blog .title a {
   font-size: 36px;
   color: var(--brown);
-  transition: var(--transition02);
+  transition: var(--transition03);
 }
-.blog h3:hover {
+.blog a:hover {
   color: var(--black);
 }
 .blog .desc {
-  font-size: 18px;
+  font-size: 23px;
   color: var(--black);
+  padding-bottom: 35px;
 }
 .blog-info {
+  padding: 10px 30px;
   background-color: var(--whitesmoke);
 }
 .blog .blog-btn {
@@ -482,5 +484,29 @@ header a .fa-solid:hover {
   background-color: var(--black);
   color: var(--white);
   border: 2px solid transparent;
+}
+.blog-content {
+  padding: 40px 0;
+}
+.blog .blog-info .day {
+  cursor: pointer;
+  font-size: 50px;
+  color: var(--brown);
+  transition: var(--transition03);
+  padding-right: 10px;
+  margin: 0;
+}
+.blog .blog-info:hover .day {
+  color: var(--black);
+}
+.blog .blof-info span {
+  font-size: 20px;
+}
+.blog-info ul li i {
+  padding-right: 8px;
+}
+.blog-info ul li {
+  font-size: 16px;
+  padding: 22px 11px;
 }
 /* <!-- ----------BLOG ENDS HERE---------- --> */
