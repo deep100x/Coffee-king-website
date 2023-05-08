@@ -314,14 +314,20 @@ header a .fa-solid:hover {
   line-height: 1.1;
 }
 .sale .desc {
-  font-size: 18px;
-  padding-bottom: 10px;
+  font-size: 21px;
+  padding: 10px 0;
 }
 .sale .sub-title {
   color: var(--brown);
   font-size: 30px;
 }
 /* country using div tag */
+.sale ul li {
+  flex-basis: 33.33%;
+  padding: 12px 0 5px 0;
+  /* column-count: 3; */
+  font-size: 21px;
+}
 .sale .country {
   color: var(--black);
   transition: var(--transition03);
