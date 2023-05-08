@@ -20,7 +20,13 @@
 }
 .container {
   max-width: 1540px;
-  margin: auto;
+  margin: 0 auto;
+}
+.m-0 {
+  margin: 0;
+}
+.overflowx {
+  overflow-x: hidden;
 }
 html,
 body {
@@ -48,15 +54,6 @@ section {
 .w-11,
 .w-12 {
   padding: 0 var(--gutter-width);
-}
-.font16px {
-  font-size: 16px;
-}
-.font24px {
-  font-size: 24px;
-}
-.font60px {
-  font-size: 60px;
 }
 /* <!-- ----------HEADER STARTS HERE---------- --> */
 header {
@@ -211,11 +208,8 @@ header a .fa-solid:hover {
 .about .content img {
   padding: 40px 0;
 }
-.about .title img {
-  margin-left: 15px;
-}
 .about .sub-title {
-  margin: 15px 0 10px;
+  padding: 15px 0 10px;
   text-align: left;
   font-size: 24px;
   font-weight: 600;
@@ -249,7 +243,7 @@ header a .fa-solid:hover {
 }
 .products .menu li:hover a {
   color: var(--brown);
-  border-bottom: 2px solid --brown;
+  border-bottom: 2px solid var(--brown);
 }
 
 /* products-card */
@@ -316,7 +310,7 @@ header a .fa-solid:hover {
 .sale .title {
   color: var(--black);
   font-size: 60px;
-  margin-top: 6px;
+  padding-top: 6px;
   line-height: 1.1;
 }
 .sale .desc {
@@ -372,7 +366,7 @@ header a .fa-solid:hover {
 }
 .gallery .left-data h3 {
   line-height: 100px;
-  font-size: 120px !important;
+  font-size: 120px;
   color: var(--brown);
   padding-bottom: 30px;
 }
@@ -400,7 +394,7 @@ header a .fa-solid:hover {
 }
 .gallery .dealer-btn:hover {
   background-color: var(--white);
-  border: 2px solid --black;
+  border: 2px solid var(--black);
   color: var(--black);
 }
 .gallery .contact-btn {
@@ -409,6 +403,7 @@ header a .fa-solid:hover {
 .gallery .contact-btn:hover {
   background-color: var(--white);
   color: var(--black);
+  border: 2px solid var(--black);
 }
 /* <!-- ----------GALLERY ENDS HERE---------- --> */
 
