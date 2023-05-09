@@ -440,6 +440,65 @@ header a .fa-solid:hover {
 }
 /* <!-- ----------GALLERY ENDS HERE---------- --> */
 
+/* <!-- ----------TESTIMONIAL STARTS HERE---------- --> */
+.testimonial {
+  background-image: url(../images/coffee_parallax.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+}
+.t-heading h5 {
+  color: var(--brown);
+  font-size: 24px;
+}
+.t-heading h2 {
+  color: var(--white);
+  line-height: 55px;
+  font-size: 60px;
+  padding-bottom: 52px;
+}
+.left-box,
+.right-box {
+  padding: 0 55px 0 55px;
+}
+.left-box a,
+.right-box a {
+  background-color: var(--brown);
+  color: #242424;
+  padding: 16px 25px;
+  transition: var(--transition03);
+}
+.testi-body a:hover {
+  background-color: var(--white);
+}
+.testi-body {
+  align-items: center;
+}
+.testi-center {
+  border: 8px solid var(--brown);
+  padding: 0 90px;
+  color: var(--white);
+}
+.testi-center .title {
+  font-size: 25px;
+  padding: 50px 0 0 0;
+}
+.testi-center .sub-title {
+  font-size: 20px;
+  padding: 0 0 40px 0;
+}
+.testi-center .desc {
+  /* padding: 0 60px; */
+  font-size: 24px;
+}
+.testi-center i {
+  font-size: 70px;
+  padding: 50px 0;
+}
+
+/* <!-- ----------TESTIMONIAL ENDS HERE---------- --> */
+
 /* <!-- ----------OUR-STORES STARTS HERE---------- --> */
 /* <!-- ----------OUR-STORES ENDS HERE---------- --> */
 
@@ -452,7 +511,7 @@ header a .fa-solid:hover {
 }
 .discount .content {
   background-color: var(--whitesmoke);
-  padding: 114.5px 115px;
+  padding: 117.5px 115px;
 }
 .discount .content h5 {
   font-size: 24px;
