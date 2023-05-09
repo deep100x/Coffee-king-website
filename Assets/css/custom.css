@@ -35,6 +35,15 @@
 .w-12 {
   width: 100%;
 }
+.w-25 {
+  width: 25%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-75 {
+  width: 75%;
+}
 /* FONT WIGHT CLASSES */
 .f-weight1 {
   font-weight: 100;
