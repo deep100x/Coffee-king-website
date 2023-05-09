@@ -224,11 +224,38 @@ header a .fa-solid:hover {
 /* <!-- ----------ABOUT ENDS HERE---------- --> */
 
 /* <!-- ----------PRODUCTS STARTS HERE---------- --> */
+.p-heading {
+  padding: 35px 0 55px 0;
+}
+.p-heading span {
+  color: var(--whitesmoke);
+  position: relative;
+  font-size: 60px;
+  z-index: 1;
+}
+.p-heading span::before {
+  content: "Choose your coffe";
+  color: var(--brown);
+  font-size: 24px;
+  position: absolute;
+  top: -7px;
+  left: 140px;
+  z-index: -1;
+}
+.p-heading span::after {
+  content: "PRODUCTS";
+  font-size: 180px;
+  line-height: 140px;
+  font-weight: 800;
+  color: rgb(67, 67, 67);
+  position: absolute;
+  top: -40px;
+  left: -200px;
+  z-index: -2;
+}
 .products {
   background-color: var(--black);
 }
-/* products-heading */
-
 /* products-menu */
 .products .menu li {
   cursor: pointer;
@@ -455,7 +482,7 @@ header a .fa-solid:hover {
 
 /* <!-- ----------BLOG STARTS HERE---------- --> */
 .heading {
-  padding-bottom: 55px;
+  padding-bottom: 70px;
 }
 .heading span {
   position: relative;
@@ -468,15 +495,15 @@ header a .fa-solid:hover {
   font-size: 24px;
   position: absolute;
   top: -10px;
-  left: 175px;
+  left: 133px;
   z-index: -2;
 }
 .heading span::after {
-  content: "BLOG";
+  content: "Blog";
   font-size: 200px;
   line-height: 140px;
   font-weight: 800;
-  color: rgba(173, 173, 173, 0.5);
+  color: #f4f4f4;
   position: absolute;
   top: -40px;
   left: -25px;
