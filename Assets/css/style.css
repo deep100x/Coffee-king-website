@@ -632,26 +632,63 @@ header a .fa-solid:hover {
 /* <!-- ----------BLOG ENDS HERE---------- --> */
 
 /* <!-- ----------CONTACTS STARTS HERE---------- --> */
-.contact {
+footer {
   background-image: url(../images/footer_map.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  padding: 60px 0;
 }
 /* sub-bar */
-.bar {
-  position: absolute;
-  top: -60px;
-  border: 2px solid black;
-  padding: 0px 120px;
-}
 .sub-bar {
   background-color: var(--brown);
-  border: 2px solid black;
-  padding: 30px 80px;
+  padding: 40px 80px;
 }
-
+.sub-bar .subscribe p {
+  font-size: 36px;
+  line-height: 36px;
+  color: var(--whitesmoke);
+  font-weight: 700;
+}
+.sub-bar .subscribe p span {
+  color: var(--black);
+}
+.sub-bar .email input {
+  padding: 15px 20px;
+  font-size: 18px;
+  color: grey;
+  font-weight: 400;
+}
+.sub-bar .email a {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 13px 40px;
+  font-weight: 700;
+  color: var(--white);
+  border: 2px solid transparent;
+  background-color: var(--black);
+  transition: var(--transition02);
+  margin-left: -4px;
+}
+.sub-bar .email a:hover {
+  border: 2px solid var(--black);
+  color: var(--black);
+  background-color: var(--brown);
+}
+.sub-bar .icon a {
+  background-color: #d3c4a8;
+  color: var(--black);
+  font-size: 20px;
+  padding: 15px 20px;
+  margin: 0 1px;
+  overflow: hidden;
+}
+.sub-bar .icon a i {
+  transition: var(--transition03);
+}
+.sub-bar .icon a:hover i {
+  transform: scale(1.5);
+}
 /* content */
 .info-btn {
   padding-bottom: 20px;
@@ -659,7 +696,7 @@ header a .fa-solid:hover {
 .contact-logo {
   padding: 30px 0;
 }
-.contact .info .desc {
+footer .info .desc {
   padding: 0 0 30px 0;
 }
 .info-btn a {
@@ -676,58 +713,58 @@ header a .fa-solid:hover {
   border: 2px solid transparent;
   background-color: var(--whitesmoke);
 }
-.contact .title {
+footer .title {
   font-size: 30px;
   color: var(--brown);
   padding: 30px 0;
 }
-.contact .explore ul {
+footer .explore ul {
   /* column-count: 2; */
   /* column-gap: 40px; */
   padding: 5px 0 0 0;
 }
-.contact .explore ul li {
+footer .explore ul li {
   padding: 8px 10px;
   flex-basis: 50%;
   font-weight: 700;
 }
-.contact .explore ul li a {
+footer .explore ul li a {
   color: var(--black);
   transition: var(--transition03);
 }
-.contact .explore ul li:hover a {
+footer .explore ul li:hover a {
   color: var(--brown);
 }
-.contact .explore ul li a::before {
+footer .explore ul li a::before {
   content: "\f105";
   font-family: fontAwesome;
   color: var(--brown);
   padding-right: 7px;
 }
-.contact .location ul {
+footer .location ul {
   padding: 5px 0 0 0;
 }
-.contact .location ul li {
+footer .location ul li {
   padding: 8px 10px;
   font-weight: 700;
 }
-.contact .location ul li i {
+footer .location ul li i {
   color: var(--brown);
   padding-right: 10px;
 }
-.contact .location ul li:nth-child(1) a,
-.contact .location ul li:nth-child(2) a {
+footer .location ul li:nth-child(1) a,
+footer .location ul li:nth-child(2) a {
   color: #ffffff80;
   font-weight: 100;
   font-weight: 500;
 }
-.contact .location ul li:nth-child(3) a,
-.contact .location ul li:nth-child(4) a {
+footer .location ul li:nth-child(3) a,
+footer .location ul li:nth-child(4) a {
   color: var(--black);
   transition: var(--transition03);
 }
-.contact .location ul li:nth-child(3):hover a,
-.contact .location ul li:nth-child(4):hover a {
+footer .location ul li:nth-child(3):hover a,
+footer .location ul li:nth-child(4):hover a {
   color: var(--brown);
 }
 
