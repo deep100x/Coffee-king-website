@@ -4,6 +4,7 @@
   --black: #242424;
   --white: #ffffff;
   --whitesmoke: #f6f6f6;
+  --grey: #ffffff80;
   --hover: color(--brown);
   --transition02: all 0.2s linear;
   --transition03: all 0.3s linear;
@@ -639,12 +640,8 @@ header a .fa-solid:hover {
 
 /* <!-- ----------CONTACTS STARTS HERE---------- --> */
 footer {
-  /* background-image: url(../images/footer_map.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   background-color: var(--black);
-  padding: 60px 0;
+  padding: 60px 0 0 0;
   position: relative;
 }
 .bg-map {
@@ -652,33 +649,47 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
-footer::before {
+.pad {
+  padding: 70px 0 40px 0;
 }
 /* sub-bar */
 .sub-bar {
   background-color: var(--brown);
-  padding: 40px 80px;
+  padding: 50px 100px;
   position: absolute;
-  top: -70px;
-  width: 80%;
+  top: -150px;
+  width: 100%;
 }
-.sub-bar .subscribe p {
+.sub-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.subscribe {
+  float: left;
+}
+.subscribe p {
   font-size: 36px;
   line-height: 36px;
   color: var(--whitesmoke);
   font-weight: 700;
 }
-.sub-bar .subscribe p span {
+.subscribe p span {
   color: var(--black);
 }
-.sub-bar .email input {
+.email {
+  float: left;
+  padding: 7px 0 0 125px;
+}
+.email input {
   padding: 15px 20px;
   font-size: 18px;
   color: grey;
   font-weight: 400;
 }
-.sub-bar .email a {
+.email a {
   cursor: pointer;
   font-size: 20px;
   padding: 13px 40px;
@@ -689,12 +700,16 @@ footer::before {
   transition: var(--transition02);
   margin-left: -4px;
 }
-.sub-bar .email a:hover {
+.email a:hover {
   border: 2px solid var(--black);
   color: var(--black);
   background-color: var(--brown);
 }
-.sub-bar .icon a {
+.icon {
+  padding: 20px 0;
+  float: right;
+}
+.icon a {
   background-color: #d3c4a8;
   color: var(--black);
   font-size: 20px;
@@ -702,13 +717,17 @@ footer::before {
   margin: 0 1px;
   overflow: hidden;
 }
-.sub-bar .icon a i {
+.icon a i {
   transition: var(--transition03);
 }
-.sub-bar .icon a:hover i {
+.icon a:hover i {
   transform: scale(1.5);
 }
 /* content */
+footer .info {
+  padding-right: 100px;
+  word-break: break-all;
+}
 .info-btn {
   padding-bottom: 20px;
 }
@@ -716,7 +735,9 @@ footer::before {
   padding: 30px 0;
 }
 footer .info .desc {
-  color: var(--white);
+  font-size: 20px;
+  line-height: 1.7;
+  color: var(--grey);
   padding: 0 0 30px 0;
 }
 .info-btn a {
@@ -772,7 +793,7 @@ footer .location ul li i {
 }
 footer .location ul li:nth-child(1) a,
 footer .location ul li:nth-child(2) a {
-  color: #ffffff80;
+  color: var(--grey);
   font-weight: 100;
   font-weight: 500;
 }
@@ -785,5 +806,34 @@ footer .location ul li:nth-child(3):hover a,
 footer .location ul li:nth-child(4):hover a {
   color: var(--brown);
 }
-
+/* COPYRIGHT */
+.copyright {
+  padding: 0 0 20px 0;
+}
+.copyright .content {
+  color: var(--white);
+  transition: var(--transition03);
+}
+.copyright .content:hover {
+  color: var(--brown);
+}
+.copyright .content span {
+  color: var(--brown);
+}
 /* <!-- ----------CONTACTS ENDS HERE---------- --> */
+.topscroll {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 49% 51%;
+  transition: var(--transition03);
+  color: var(--black);
+  background-color: var(--brown);
+  text-align: center;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.topscroll:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
