@@ -97,8 +97,8 @@ img {
 .row {
   display: flex;
   flex-wrap: wrap;
-  /* margin-left: calc(-1 * var(--gutter-width)); */
-  /* margin-right: calc(-1 * var(--gutter-width)); */
+  margin-left: calc(-1 * var(--gutter-width));
+  margin-right: calc(-1 * var(--gutter-width));
 }
 .float-right {
   float: right;

@@ -543,6 +543,9 @@ header a .fa-solid:hover {
 /* <!-- ----------DISCOUNT ENDS HERE---------- --> */
 
 /* <!-- ----------BLOG STARTS HERE---------- --> */
+.blog {
+  padding-bottom: 135px;
+}
 .heading {
   padding-bottom: 70px;
 }
@@ -597,13 +600,13 @@ header a .fa-solid:hover {
   padding: 10px 30px;
   background-color: var(--whitesmoke);
 }
-.blog .blog-btn {
+.blog .blog-btn a {
   background-color: var(--white);
   color: var(--brown);
   border: 2px solid var(--brown);
   transition: var(--transition03);
 }
-.blog .blog-btn:hover {
+.blog .blog-btn a:hover {
   background-color: var(--black);
   color: var(--white);
   border: 2px solid transparent;
@@ -636,16 +639,29 @@ header a .fa-solid:hover {
 
 /* <!-- ----------CONTACTS STARTS HERE---------- --> */
 footer {
+  /* background-image: url(../images/footer_map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: var(--black);
+  padding: 60px 0;
+  position: relative;
+}
+.bg-map {
   background-image: url(../images/footer_map.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 60px 0;
+}
+footer::before {
 }
 /* sub-bar */
 .sub-bar {
   background-color: var(--brown);
   padding: 40px 80px;
+  position: absolute;
+  top: -70px;
+  width: 80%;
 }
 .sub-bar .subscribe p {
   font-size: 36px;
@@ -700,6 +716,7 @@ footer {
   padding: 30px 0;
 }
 footer .info .desc {
+  color: var(--white);
   padding: 0 0 30px 0;
 }
 .info-btn a {
@@ -723,16 +740,14 @@ footer .title {
 }
 footer .explore ul {
   column-count: 2;
-  /* column-gap: 40px; */
   padding: 5px 0 0 0;
 }
 footer .explore ul li {
   padding: 8px 10px;
-  /* flex-basis: 50%; */
   font-weight: 700;
 }
 footer .explore ul li a {
-  color: var(--black);
+  color: var(--white);
   transition: var(--transition03);
 }
 footer .explore ul li:hover a {
@@ -763,7 +778,7 @@ footer .location ul li:nth-child(2) a {
 }
 footer .location ul li:nth-child(3) a,
 footer .location ul li:nth-child(4) a {
-  color: var(--black);
+  color: var(--white);
   transition: var(--transition03);
 }
 footer .location ul li:nth-child(3):hover a,
