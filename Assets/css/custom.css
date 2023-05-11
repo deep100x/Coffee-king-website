@@ -2,141 +2,181 @@
 .w-1 {
   width: 8.33%;
 }
+
 .w-2 {
   width: 16.66%;
 }
+
 .w-3 {
   width: 25%;
 }
+
 .w-4 {
   width: 33.33%;
 }
+
 .w-5 {
   width: 41.66;
 }
+
 .w-6 {
   width: 50%;
 }
+
 .w-7 {
   width: 58.33;
 }
+
 .w-8 {
   width: 66.66%;
 }
+
 .w-9 {
   width: 75%;
 }
+
 .w-10 {
   width: 83.33%;
 }
+
 .w-11 {
   width: 91.66%;
 }
+
 .w-12 {
   width: 100%;
 }
+
 .w-25 {
   width: 25%;
 }
+
 .w-50 {
   width: 50%;
 }
+
 .w-75 {
   width: 75%;
 }
+
 /* FONT WIGHT CLASSES */
 .f-weight1 {
   font-weight: 100;
 }
+
 .f-weight2 {
   font-weight: 200;
 }
+
 .f-weight3 {
   font-weight: 300;
 }
+
 .f-weight4 {
   font-weight: 400;
 }
+
 .f-weight5 {
   font-weight: 500;
 }
+
 .f-weight6 {
   font-weight: 600;
 }
+
 .f-weight7 {
   font-weight: 700;
 }
+
 .f-weight8 {
   font-weight: 800;
 }
+
 .f-weight9 {
   font-weight: 900;
 }
+
 /* INLINE-BLOCK */
 .inline-block {
   display: inline-block;
 }
+
 /* INLINE */
 .inline {
   display: inline;
 }
+
 /* BLOCK */
 .block {
   display: block;
 }
+
 /* RELATIVE */
 .p-relative {
   position: relative;
 }
+
 /* IMAGE */
 img {
   display: block;
   max-width: 100%;
 }
+
 /* ROW */
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--gutter-width));
-  margin-right: calc(-1 * var(--gutter-width));
 }
+
 .float-right {
   float: right;
 }
+
 .float-left {
   float: left;
 }
+
 /* DISPLAY FLEX */
 .d-flex {
   display: flex;
 }
+
 .flex-wrap {
   flex-wrap: wrap;
 }
+
 .flex-row {
   flex-direction: row;
 }
+
 .flex-columm {
   flex-direction: column;
 }
+
 .justify-center {
   justify-content: center;
 }
+
 .justify-between {
   justify-content: space-between;
 }
+
 .align-center {
   align-items: center;
 }
+
 .text-center {
   text-align: center;
 }
+
 .text-left {
   text-align: left;
 }
+
 .text-right {
   text-align: right;
 }
+
 .align-c-center {
   align-content: center;
 }

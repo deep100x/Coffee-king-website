@@ -5,13 +5,14 @@
   --white: #ffffff;
   --whitesmoke: #e2e2e2;
   --light-grey: #d9d9d9;
-  --dark-grey:#696969;
+  --dark-grey: #696969;
   --hover: color(--brown);
   --transition02: all 0.2s linear;
   --transition03: all 0.3s linear;
   --transition05: all 0.5s linear;
   --gutter-width: 12px;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -20,29 +21,36 @@
   text-decoration: none;
   font-family: "Kanit";
 }
+
 .container {
   max-width: 1540px;
   margin: 0 auto;
 }
+
 .m-0 {
   margin: 0;
 }
+
 .overflowx {
   overflow-x: hidden;
 }
+
 html,
 body {
   scroll-behavior: smooth;
 }
+
 section {
   padding: 60px 0;
 }
+
 .btn {
   cursor: pointer;
   font-size: 18px;
   padding: 13px 40px;
   font-weight: 600;
 }
+
 .w-1,
 .w-2,
 .w-3,
@@ -57,32 +65,39 @@ section {
 .w-12 {
   padding: 0 var(--gutter-width);
 }
+
 /* <!-- ----------HEADER STARTS HERE---------- --> */
 header {
   position: absolute;
   width: 100%;
 }
+
 header {
   padding: 20px;
 }
+
 header .menu ul li {
   position: relative;
   padding: 15px 20px;
   gap: 20px;
 }
+
 header .menu ul li {
   cursor: pointer;
 }
+
 header .menu ul li a {
   color: var(--white);
   font-weight: 600;
   font-size: 24px;
   transition: var(--transition03);
 }
+
 header .menu ul li:hover a {
   color: var(--brown);
   transition: var(--transition03);
 }
+
 header .menu ul li .menu-item::after {
   content: "\f105";
   font-family: fontAwesome;
@@ -93,11 +108,13 @@ header .menu ul li .menu-item::after {
   right: 0;
   transition: var(--transition03);
 }
+
 header .menu ul li:hover .menu-item::after {
   color: var(--brown);
   transform: rotate(90deg);
   /* transition: var(--transition03); */
 }
+
 .box {
   width: 30px;
   display: inline-block;
@@ -109,24 +126,29 @@ header .menu ul li:hover .menu-item::after {
   color: var(--white);
   background-color: var(--red);
 }
+
 header .menu ul li:nth-child(8) {
   margin-left: 50px;
   padding-right: 0;
 }
+
 header a .fa-solid {
   color: var(--white);
   padding: 10px 10px 10px 0;
   align-items: center;
   display: inline-block;
 }
+
 .h-icon {
   font-size: 22px;
   transition: var(--transition03);
 }
+
 header a .fa-solid:hover {
   color: var(--brown);
   transition: var(--transition03);
 }
+
 /* <!-- ----------HEADER ENDS HERE---------- --> */
 
 /* <!-- ----------MAIN BANNER STARTS HERE---------- --> */
@@ -138,41 +160,51 @@ header a .fa-solid:hover {
   background-size: cover;
   background-attachment: fixed;
 }
-.btn1 {
+
+.btn2 {
   perspective: 250px;
+  display: inline-block;
 }
-.main-banner .main-btn {
+
+.main-btn2 {
   cursor: pointer;
-  color: var(--white);
+  color: white;
   background-color: var(--brown);
-  font-size: 24px;
-  padding: 13px 40px;
-  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 60px;
+  font-weight: bold;
   position: relative;
   overflow: hidden;
-  transition: var(--transition03);
+  transition: all 0.3s ease-in-out;
   border: none;
 }
-.main-banner .main-btn::after {
-  content: "";
+
+.main-btn2::after {
+  content: "View more";
+  padding: 20px 0px;
   width: 100%;
   height: 100%;
-  background-color: var(--red);
+  background-color: var(--dark-grey);
   position: absolute;
   top: -100%;
   left: 0;
   z-index: -1;
-  transition: var(--transition03);
+  transition: all 0.3s ease-in-out;
 }
-.main-banner .main-btn:hover::after {
-  content: "";
+
+.main-btn2:hover::after {
   top: 0;
-  transition: all 0.5s linear;
   z-index: 1;
 }
+
+.main-btn2:hover {
+  transform: rotateX(360deg);
+}
+
 .main-banner .main-btn:hover {
   transform: rotateY(180deg);
 }
+
 .main-banner .wave {
   position: absolute;
   bottom: 0;
@@ -180,6 +212,7 @@ header a .fa-solid:hover {
   left: 0;
   margin-bottom: -4px;
 }
+
 /* <!-- ----------MAIN BANNER ENDS HERE---------- --> */
 
 /* <!-- ----------ABOUT START HERE---------- --> */
@@ -189,33 +222,39 @@ header a .fa-solid:hover {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.about .content {
-}
+
+.about .content {}
+
 .about .content .title {
   font-size: 30px;
   color: var(--brown);
   font-weight: 600;
 }
+
 .about .content .sub-title {
   font-size: 60px;
   margin-top: 0;
   color: var(--black);
 }
+
 .about .content .desc {
   font-size: 24px;
   line-height: 45px;
   padding-bottom: 0;
   color: var(--black);
 }
+
 .about .content img {
   padding: 40px 0;
 }
+
 .about .sub-title {
   padding: 15px 0 10px;
   text-align: left;
   font-size: 24px;
   font-weight: 600;
 }
+
 .about .desc {
   color: var(--black);
   line-height: 24px;
@@ -223,12 +262,14 @@ header a .fa-solid:hover {
   font-weight: 300;
   padding-bottom: 70px;
 }
+
 /* <!-- ----------ABOUT ENDS HERE---------- --> */
 
 /* <!-- ----------PRODUCTS STARTS HERE---------- --> */
 .p-heading {
   padding: 35px 0 55px 0;
 }
+
 .p-heading span {
   color: var(--whitesmoke);
   position: relative;
@@ -236,40 +277,46 @@ header a .fa-solid:hover {
   line-height: 40px;
   z-index: 20;
 }
-.p-heading strong{
+
+.p-heading strong {
   font-size: 24px;
   line-height: 20px;
   color: var(--brown);
 }
+
 .p-heading span::before {
   content: "PRODUCTS";
   font-size: 150px;
   line-height: 140px;
   font-weight: 800;
-  color:rgb(66, 66, 66);
+  color: rgb(66, 66, 66);
   position: absolute;
   top: 7px;
   left: -260px;
   z-index: -2;
 
 }
+
 .products {
   /* font-size: 20px; */
   background-color: var(--black);
 }
+
 /* products-menu */
 .products .menu li {
   font-size: 20px;
-   cursor: pointer;
+  cursor: pointer;
   font-weight: 600;
   display: block;
   line-height: 16px;
   padding: 30px 20px;
 }
+
 .products .menu li a {
   color: var(--white);
   transition: var(--transition03);
 }
+
 .products .menu li:hover a {
   color: var(--brown);
   border-bottom: 2px solid var(--brown);
@@ -280,21 +327,26 @@ header a .fa-solid:hover {
   background-color: var(--white);
   padding: 20px 40px;
 }
+
 .products .title {
   transition: var(--transition05);
   font-size: 25px;
 }
+
 .products .p-card:hover .title {
   color: var(--brown);
 }
+
 .products .desc {
   font-size: 19px;
   padding: 10px 25px;
 }
+
 .products .p-card button i {
   font-size: 15px;
   margin-right: 5px;
 }
+
 .products .p-card button {
   background-color: var(--brown);
   color: var(--white);
@@ -305,36 +357,43 @@ header a .fa-solid:hover {
   transition: var(--transition02);
   margin-bottom: 20px;
 }
+
 .products .p-card button:hover {
   background-color: var(--black);
   color: var(--white);
 }
+
 .products .price del {
   color: var(--black);
   text-decoration: line-through;
   text-decoration-color: var(--red);
 }
+
 .products .price {
   font-size: 24px;
   font-weight: 600;
   color: var(--brown);
   padding: 15px 0 30px 0;
 }
+
 .pro-btn {
   padding-top: 40px;
   padding-bottom: 20px;
 }
+
 .pro-btn a {
   background-color: var(--black);
   border: 2px solid var(--brown);
   color: var(--brown);
   transition: var(--transition02);
 }
+
 .pro-btn a:hover {
   background-color: var(--white);
   border: 2px solid transparent;
   color: var(--black);
 }
+
 /* <!-- ----------PRODUCTS ENDS HERE---------- --> */
 
 /* <!-- ----------SALE STARTS HERE---------- --> */
@@ -344,51 +403,62 @@ header a .fa-solid:hover {
   padding-top: 6px;
   line-height: 1.1;
 }
+
 .sale .desc {
   font-size: 21px;
   padding: 15px 0;
 }
+
 .sale .sub-title {
   color: var(--brown);
   font-size: 30px;
 }
+
 /* country using div tag */
 .sale ul {
   column-count: 3;
 }
+
 .sale ul li {
   flex-basis: 33.33%;
   padding: 12px 0 5px 0;
   /* column-count: 3; */
   font-size: 21px;
 }
+
 .sale .country {
   color: var(--black);
   transition: var(--transition03);
 }
+
 .sale .country::before {
   content: "\f105";
   font-family: fontAwesome;
   transform: rotate("360deg");
   margin-right: 7px;
 }
+
 .sale .country:hover {
   color: var(--brown);
 }
+
 .sale-btn {
   padding-top: 20px;
 }
+
 .sale-btn a {
   border: 2px solid transparent;
   color: var(--white);
   background-color: var(--brown);
   transition: var(--transition03);
 }
+
 .sale-btn a:hover {
   border: 2px solid var(--black);
   color: var(--black);
   background-color: var(--white);
 }
+
 /* <!-- ----------SALE ENDS HERE---------- --> */
 
 /* <!-- ----------GALLERY STARTS HERE---------- --> */
@@ -398,53 +468,64 @@ header a .fa-solid:hover {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .gallery .left-data h2 {
   padding-top: 20px;
   line-height: 50px;
   font-size: 30px;
   color: var(--black);
 }
+
 .gallery .left-data h3 {
   line-height: 100px;
   font-size: 120px;
   color: var(--brown);
   padding-bottom: 30px;
 }
+
 .gallery .left-data h4 {
   line-height: 50px;
   font-size: 60px;
 }
+
 .gallery .right-data h3 {
   font-size: 60px;
   line-height: 100px;
 }
+
 .gallery .right-data p {
   font-size: 21px;
   line-height: 35px;
   padding-bottom: 45px;
 }
+
 .gallery a {
   transition: var(--transition02);
   color: var(--white);
   border: 2px solid transparent;
 }
+
 .gallery .dealer-btn {
   margin: 0 20px 0 0;
   background-color: var(--black);
 }
+
 .gallery .dealer-btn:hover {
   background-color: var(--white);
   border: 2px solid var(--black);
   color: var(--black);
 }
+
 .gallery .contact-btn {
   background-color: var(--brown);
 }
+
 .gallery .contact-btn:hover {
   background-color: var(--white);
   color: var(--black);
   border: 2px solid var(--black);
 }
+
 /* <!-- ----------GALLERY ENDS HERE---------- --> */
 
 /* <!-- ----------TESTIMONIAL STARTS HERE---------- --> */
@@ -455,20 +536,24 @@ header a .fa-solid:hover {
   background-size: cover;
   padding: 100px 0px;
 }
+
 .t-heading h5 {
   color: var(--brown);
   font-size: 24px;
 }
+
 .t-heading h2 {
   color: var(--white);
   line-height: 55px;
   font-size: 60px;
   padding-bottom: 52px;
 }
+
 .left-box,
 .right-box {
   padding: 0 55px 0 55px;
 }
+
 .left-box a,
 .right-box a {
   background-color: var(--brown);
@@ -476,39 +561,48 @@ header a .fa-solid:hover {
   padding: 16px 25px;
   transition: var(--transition03);
 }
+
 .testi-body a:hover {
   background-color: var(--white);
 }
+
 .testi-body {
   align-items: center;
 }
+
 .testi-center {
   border: 8px solid var(--brown);
   padding: 0 90px;
   color: var(--white);
 }
+
 .testi-center .title {
   font-size: 25px;
   padding: 50px 0 0 0;
 }
+
 .testi-center .sub-title {
   font-size: 20px;
   padding: 0 0 40px 0;
 }
+
 .testi-center .desc {
   /* padding: 0 60px; */
   font-size: 24px;
 }
+
 .testi-center i {
   font-size: 70px;
   padding: 50px 0;
 }
+
 /* <!-- ----------TESTIMONIAL ENDS HERE---------- --> */
 
 /* <!-- ----------OUR-STORES STARTS HERE---------- --> */
-.store-image img{
-margin: 0 auto;
+.store-image img {
+  margin: 0 auto;
 }
+
 /* <!-- ----------OUR-STORES ENDS HERE---------- --> */
 
 /* <!-- ----------DISCOUNT STARTS HERE---------- --> */
@@ -518,103 +612,125 @@ margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .discount .content {
   background-color: var(--whitesmoke);
   padding: 117.5px 115px;
 }
+
 .discount .content h5 {
   font-size: 24px;
   color: var(--brown);
 }
+
 .discount .content h3 {
   font-size: 60px;
   color: var(--black);
   padding-bottom: 48px;
 }
+
 .discount .content p {
   color: var(--black);
   padding: 50px 0;
 }
+
 .discount-btn {
   color: var(--white);
   background-color: var(--brown);
   border: 2px solid transparent;
   transition: var(--transition03);
 }
+
 .discount-btn:hover {
   color: var(--black);
   background-color: var(--white);
   border: 2px solid var(--black);
 }
+
 /* <!-- ----------DISCOUNT ENDS HERE---------- --> */
 
 /* <!-- ----------BLOG STARTS HERE---------- --> */
 .blog {
-    padding-bottom: 170px;
+  padding-bottom: 170px;
 }
+
 .heading {
   padding-bottom: 70px;
 }
+
 .heading span {
   position: relative;
   line-height: 45px;
   font-size: 60px;
 }
+
 .heading p {
   color: var(--brown);
   font-size: 35px;
 }
+
 .heading span::after {
   content: "Blog";
   font-size: 200px;
   line-height: 140px;
   font-weight: 800;
-  color:var(--light-grey);
+  color: var(--light-grey);
   position: absolute;
   top: -40px;
   left: -25px;
   z-index: -3;
 }
+
 .blog-img {
   overflow: hidden;
 }
+
 .blog-img img {
   transition: var(--transition03);
 }
+
 .blog-img img:hover {
   transform: scale(1.1);
 }
+
 .blog .title a {
   font-size: 36px;
   color: var(--brown);
   transition: var(--transition03);
 }
+
 .blog a:hover {
   color: var(--black);
 }
+
 .blog .desc {
   font-size: 23px;
   color: var(--black);
   padding-bottom: 35px;
 }
+
 .blog-info {
   padding: 10px 30px;
   background-color: var(--whitesmoke);
 }
+
 .blog .blog-btn a {
   background-color: var(--white);
   color: var(--brown);
   border: 2px solid var(--brown);
   transition: var(--transition03);
 }
+
 .blog .blog-btn a:hover {
   background-color: var(--black);
   color: var(--white);
   border: 2px solid transparent;
 }
+
 .blog-content {
   padding: 40px 0;
 }
+
 .blog .blog-info .day {
   cursor: pointer;
   font-size: 50px;
@@ -623,32 +739,38 @@ margin: 0 auto;
   padding-right: 10px;
   margin: 0;
 }
+
 .blog .blog-info:hover .day {
   color: var(--black);
 }
+
 .blog .blof-info span {
   font-size: 20px;
 }
+
 .blog-info ul {
   column-count: 2;
 }
+
 .blog-info ul li i {
   padding-right: 8px;
 }
+
 .blog-info ul li {
   font-size: 16px;
   padding: 22px 11px;
 }
+
 /* <!-- ----------BLOG ENDS HERE---------- --> */
 
-/* <!-- ----------CONTACTS STARTS HERE---------- --> */
+/* <!-- ----------CONTACTS FOOTER STARTS HERE---------- --> */
 footer {
   background-color: var(--black);
   padding: 60px 0 0 0;
   position: relative;
-    font-size: 20px;
-
+  font-size: 20px;
 }
+
 .bg-map {
   background-image: url(../images/footer_map.png);
   background-position: center;
@@ -656,9 +778,11 @@ footer {
   background-size: cover;
   position: relative;
 }
+
 .pad {
   padding: 70px 0 40px 0;
 }
+
 /* sub-bar */
 .sub-bar {
   background-color: var(--brown);
@@ -668,25 +792,30 @@ footer {
   width: 100%;
   margin-bottom: 1px;
 }
+
 .subscribe p {
   font-size: 36px;
   line-height: 36px;
   color: var(--whitesmoke);
   font-weight: 600;
 }
+
 .subscribe p span {
   color: var(--black);
 }
+
 .email {
   float: left;
   padding: 7px 0 0 0;
 }
+
 .email input {
   padding: 15px 20px;
   font-size: 18px;
   color: var(--dark-grey);
   font-weight: 400;
 }
+
 .email a {
   cursor: pointer;
   font-size: 20px;
@@ -698,44 +827,54 @@ footer {
   transition: var(--transition02);
   margin-left: -4px;
 }
+
 .email a:hover {
   border: 2px solid var(--black);
   color: var(--black);
   background-color: var(--brown);
 }
+
 .icon {
   padding: 20px 0;
 }
+
 .icon a {
   background-color: #d3c4a8;
   color: var(--black);
   font-size: 20px;
   padding: 15px 20px;
   margin: 0 1px;
-  overflow: hidden; 
+  overflow: hidden;
 }
+
 .icon a i {
   transition: var(--transition03);
 }
+
 .icon a:hover i {
   transform: scale(1.5);
 }
+
 /* content */
 footer .info {
   word-break: break-all;
 }
+
 .info-btn {
   padding-bottom: 20px;
 }
+
 .contact-logo {
   padding: 30px 0;
 }
+
 footer .info .desc {
   font-size: 20px;
   line-height: 1.7;
   color: var(--dark-grey);
   padding: 0 100px 30px 0;
 }
+
 .info-btn a {
   color: var(--black);
   background-color: var(--brown);
@@ -745,82 +884,100 @@ footer .info .desc {
   padding: 10px 30px;
   transition: var(--transition02);
 }
+
 .info-btn a:hover {
   border: 2px solid transparent;
   background-color: var(--whitesmoke);
 }
+
 footer .title {
   font-size: 35px;
   color: var(--brown);
   padding: 30px 0;
 }
+
 footer .explore ul {
   column-count: 2;
   padding: 5px 0 0 0;
 }
+
 footer .explore ul li {
   padding: 8px 10px;
   font-weight: 500;
 }
+
 footer .explore ul li a {
   color: var(--white);
   transition: var(--transition03);
 }
+
 footer .explore ul li:hover a {
   color: var(--brown);
 }
+
 footer .explore ul li a::before {
   content: "\f105";
   font-family: fontAwesome;
   color: var(--brown);
   padding-right: 7px;
 }
+
 footer .location ul {
   padding: 5px 0 0 0;
 }
+
 footer .location ul li {
   padding: 8px 10px;
   font-weight: 500;
 }
+
 footer .location ul li i {
   color: var(--brown);
   padding-right: 10px;
 }
+
 footer .location ul li:nth-child(1) a,
 footer .location ul li:nth-child(2) a {
   color: var(--dark-grey);
   font-weight: 500;
-  
+
 }
+
 footer .location ul li:nth-child(3) a,
 footer .location ul li:nth-child(4) a {
   color: var(--white);
   transition: var(--transition03);
 }
+
 footer .location ul li:nth-child(3):hover a,
 footer .location ul li:nth-child(4):hover a {
   color: var(--brown);
 }
+
 /* COPYRIGHT */
 .copyright {
   padding: 0 0 20px 0;
 }
+
 .copyright .content {
   color: var(--white);
   transition: var(--transition03);
 }
+
 .copyright .content:hover {
   color: var(--brown);
 }
+
 .copyright .content span {
   color: var(--brown);
 }
-/* <!-- ----------CONTACTS ENDS HERE---------- --> */
+
+/* <!-- ----------CONTACTS FOOTER ENDS HERE---------- --> */
 .topscroll {
   position: fixed;
   bottom: 50px;
   right: 50px;
-  border-radius: 49% 51%;
+  border-radius: 85% 15% 86% 14% / 15% 83% 17% 85%;
   transition: var(--transition03);
   color: var(--black);
   background-color: var(--brown);
@@ -828,6 +985,7 @@ footer .location ul li:nth-child(4):hover a {
   padding: 5px 20px;
   cursor: pointer;
 }
+
 .topscroll:hover {
   color: var(--black);
   background-color: var(--white);
