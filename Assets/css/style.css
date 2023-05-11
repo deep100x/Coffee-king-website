@@ -956,7 +956,9 @@ footer .location ul li:nth-child(4):hover a {
 
 /* COPYRIGHT */
 .copyright {
-  padding: 0 0 20px 0;
+  /* position: relative; */
+  background-color: #1f1f1f;
+  padding: 40px 0 40px 0;
 }
 
 .copyright .content {
@@ -975,9 +977,9 @@ footer .location ul li:nth-child(4):hover a {
 /* <!-- ----------CONTACTS FOOTER ENDS HERE---------- --> */
 .topscroll {
   position: fixed;
-  bottom: 50px;
   right: 50px;
-  border-radius: 85% 15% 86% 14% / 15% 83% 17% 85%;
+  bottom: 20px;
+  float: right;
   transition: var(--transition03);
   color: var(--black);
   background-color: var(--brown);
