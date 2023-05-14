@@ -39,7 +39,6 @@
     display: none;
   }
   .bar i {
-    /* float: right; */
     display: block;
   }
   .sale-info {
@@ -47,6 +46,12 @@
   }
   .discount .content {
     padding: 90px 180px;
+  }
+  .blog-info {
+    padding: 10px 10px;
+  }
+  footer .info .desc {
+    padding: 0 60px 30px 0;
   }
 }
 @media (max-width: 1200px) {
@@ -90,6 +95,9 @@
     max-width: 1140px;
     margin: 0 auto;
   }
+  .products .p-card {
+    margin-bottom: 10px;
+  }
   .sale-info {
     padding-bottom: 50px;
   }
@@ -98,6 +106,12 @@
   }
   .discount .content {
     padding: 55px 75px;
+  }
+  .sub-bar {
+    padding: 40px 80px;
+  }
+  footer .info .desc {
+    padding: 0 50px 30px 0;
   }
 }
 @media (max-width: 992px) {
@@ -176,6 +190,9 @@
   .discount .content {
     padding: 50px 60px;
   }
+  .sub-bar {
+    padding: 30px 60px;
+  }
 }
 @media (max-width: 768px) {
   .w-md-1 {
@@ -250,6 +267,12 @@
   .discount .content h3 {
     font-size: 50px;
     padding-bottom: 38px;
+  }
+  .blog-info {
+    padding: 10px 30px;
+  }
+  footer .info .desc {
+    padding: 0 30px 30px 0;
   }
 }
 @media (max-width: 576px) {
@@ -335,5 +358,12 @@
     font-size: 20px;
     color: var(--black);
     padding: 35px 0;
+  }
+  .heading span::after {
+    left: -50px;
+    display: none;
+  }
+  .heading {
+    padding-bottom: 60px;
   }
 }

@@ -321,7 +321,7 @@ header a .fa-solid:hover {
 /* products-card */
 .products .p-card {
   background-color: var(--white);
-  padding: 20px 40px;
+  padding: 20px 40px 40px 40px;
 }
 .products .p-card img {
   margin: auto;
@@ -342,7 +342,7 @@ header a .fa-solid:hover {
 
 .products .p-card button i {
   font-size: 15px;
-  margin-right: 5px;
+  padding-right: 5px;
 }
 
 .products .p-card button {
@@ -353,7 +353,6 @@ header a .fa-solid:hover {
   font-size: 17px;
   padding: 7px 22px;
   transition: var(--transition02);
-  margin-bottom: 20px;
 }
 
 .products .p-card button:hover {
@@ -507,7 +506,7 @@ header a .fa-solid:hover {
   border: 2px solid transparent;
 }
 
-.gallery .dealer-btn {
+.gallery .btn {
   margin: 0 20px 0 0;
   background-color: var(--black);
 }
@@ -660,7 +659,7 @@ header a .fa-solid:hover {
 }
 
 .heading {
-  padding-bottom: 70px;
+  padding-bottom: 85px;
 }
 
 .heading span {
@@ -684,6 +683,7 @@ header a .fa-solid:hover {
   top: -40px;
   left: -25px;
   z-index: -3;
+  display: block;
 }
 
 .blog-img {
@@ -704,7 +704,7 @@ header a .fa-solid:hover {
   transition: var(--transition03);
 }
 
-.blog a:hover {
+.blog .blog-card:hover .title a {
   color: var(--black);
 }
 
@@ -715,7 +715,7 @@ header a .fa-solid:hover {
 }
 
 .blog-info {
-  padding: 10px 30px;
+  padding: 10px 10px;
   background-color: var(--whitesmoke);
 }
 
@@ -742,7 +742,6 @@ header a .fa-solid:hover {
   color: var(--brown);
   transition: var(--transition03);
   padding-right: 10px;
-  margin: 0;
 }
 
 .blog .blog-info:hover .day {
@@ -752,9 +751,9 @@ header a .fa-solid:hover {
 .blog .blof-info span {
   font-size: 20px;
 }
-
 .blog-info ul {
   column-count: 2;
+  column-gap: 0px;
 }
 
 .blog-info ul li i {
@@ -762,8 +761,8 @@ header a .fa-solid:hover {
 }
 
 .blog-info ul li {
-  font-size: 16px;
-  padding: 22px 11px;
+  font-size: 20px;
+  padding: 22px 5px 22px 15px;
 }
 
 /* <!-- ----------BLOG ENDS HERE---------- --> */
@@ -795,7 +794,6 @@ footer {
   position: absolute;
   top: -150px;
   width: 100%;
-  margin-bottom: 1px;
 }
 
 .subscribe p {
@@ -877,7 +875,7 @@ footer .info .desc {
   font-size: 20px;
   line-height: 1.7;
   color: var(--dark-grey);
-  padding: 0 100px 30px 0;
+  padding: 0 50px 30px 0;
 }
 
 .info-btn a {
@@ -907,7 +905,7 @@ footer .explore ul {
 }
 
 footer .explore ul li {
-  padding: 8px 10px;
+  padding: 8px 10px 8px 0;
   font-weight: 500;
 }
 
