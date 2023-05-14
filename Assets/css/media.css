@@ -1,0 +1,339 @@
+@media (max-width: 1400px) {
+  .w-xxl-1 {
+    width: 8.33%;
+  }
+  .w-xxl-2 {
+    width: 16.66%;
+  }
+  .w-xxl-3 {
+    width: 25%;
+  }
+  .w-xxl-4 {
+    width: 33.33%;
+  }
+  .w-xxl-5 {
+    width: 41.66;
+  }
+  .w-xxl-6 {
+    width: 50%;
+  }
+  .w-xxl-7 {
+    width: 58.33;
+  }
+  .w-xxl-8 {
+    width: 66.66%;
+  }
+  .w-xxl-9 {
+    width: 75%;
+  }
+  .w-xxl-10 {
+    width: 83.33%;
+  }
+  .w-xxl-11 {
+    width: 91.66%;
+  }
+  .w-xxl-12 {
+    width: 100%;
+  }
+  header .menu {
+    display: none;
+  }
+  .bar i {
+    /* float: right; */
+    display: block;
+  }
+  .sale-info {
+    padding-bottom: 50px;
+  }
+  .discount .content {
+    padding: 90px 180px;
+  }
+}
+@media (max-width: 1200px) {
+  .w-xl-1 {
+    width: 8.33%;
+  }
+  .w-xl-2 {
+    width: 16.66%;
+  }
+  .w-xl-3 {
+    width: 25%;
+  }
+  .w-xl-4 {
+    width: 33.33%;
+  }
+  .w-xl-5 {
+    width: 41.66;
+  }
+  .w-xl-6 {
+    width: 50%;
+  }
+  .w-xl-7 {
+    width: 58.33;
+  }
+  .w-xl-8 {
+    width: 66.66%;
+  }
+  .w-xl-9 {
+    width: 75%;
+  }
+  .w-xl-10 {
+    width: 83.33%;
+  }
+  .w-xl-11 {
+    width: 91.66%;
+  }
+  .w-xl-12 {
+    width: 100%;
+  }
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .sale-info {
+    padding-bottom: 50px;
+  }
+  .store-img {
+    padding-bottom: 20px;
+  }
+  .discount .content {
+    padding: 55px 75px;
+  }
+}
+@media (max-width: 992px) {
+  .w-lg-1 {
+    width: 8.33%;
+  }
+  .w-lg-2 {
+    width: 16.66%;
+  }
+  .w-lg-3 {
+    width: 25%;
+  }
+  .w-lg-4 {
+    width: 33.33%;
+  }
+  .w-lg-5 {
+    width: 41.66;
+  }
+  .w-lg-6 {
+    width: 50%;
+  }
+  .w-lg-7 {
+    width: 58.33;
+  }
+  .w-lg-8 {
+    width: 66.66%;
+  }
+  .w-lg-9 {
+    width: 75%;
+  }
+  .w-lg-10 {
+    width: 83.33%;
+  }
+  .w-lg-11 {
+    width: 91.66%;
+  }
+  .w-lg-12 {
+    width: 100%;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .p-heading span::before {
+    display: none;
+  }
+  .btn2 {
+    padding-top: 60px;
+  }
+  .main-btn2 {
+    padding: 15px 45px;
+  }
+  .gallery .left-data {
+    padding-bottom: 65px;
+  }
+  .testi-body .testi-center {
+    padding: 0 45px;
+  }
+  .testi-center .title {
+    padding: 35px 0 0 0;
+  }
+  .testi-center .sub-title {
+    padding: 0 0 25px 0;
+  }
+  .testi-center .desc {
+    font-size: 20px;
+  }
+  .testi-center i {
+    font-size: 60px;
+    padding: 30px 0;
+  }
+  .left-box,
+  .right-box {
+    padding: 0 35px 0 35px;
+  }
+  .discount .content {
+    padding: 50px 60px;
+  }
+}
+@media (max-width: 768px) {
+  .w-md-1 {
+    width: 8.33%;
+  }
+  .w-md-2 {
+    width: 16.66%;
+  }
+  .w-md-3 {
+    width: 25%;
+  }
+  .w-md-4 {
+    width: 33.33%;
+  }
+  .w-md-5 {
+    width: 41.66;
+  }
+  .w-md-6 {
+    width: 50%;
+  }
+  .w-md-7 {
+    width: 58.33;
+  }
+  .w-md-8 {
+    width: 66.66%;
+  }
+  .w-md-9 {
+    width: 75%;
+  }
+  .w-md-10 {
+    width: 83.33%;
+  }
+  .w-md-11 {
+    width: 91.66%;
+  }
+  .w-md-12 {
+    width: 100%;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .btn2 {
+    padding-top: 70px;
+  }
+  .main-btn2 {
+    padding: 12px 36px;
+  }
+  .sale ul {
+    column-count: 2;
+  }
+  .testi-body .testi-center {
+    padding: 0 45px;
+  }
+  .testi-center .title {
+    padding: 20px 0 0 0;
+  }
+  .testi-center .sub-title {
+    padding: 0 0 20px 0;
+  }
+  .testi-center .desc {
+    font-size: 19px;
+  }
+  .testi-center i {
+    font-size: 55px;
+    padding: 20px 0;
+  }
+  .left-box,
+  .right-box {
+    padding: 0 25px 0 25px;
+  }
+  .discount .content h3 {
+    font-size: 50px;
+    padding-bottom: 38px;
+  }
+}
+@media (max-width: 576px) {
+  .w-sm-1 {
+    width: 8.33%;
+  }
+  .w-sm-2 {
+    width: 16.66%;
+  }
+  .w-sm-3 {
+    width: 25%;
+  }
+  .w-sm-4 {
+    width: 33.33%;
+  }
+  .w-sm-5 {
+    width: 41.66;
+  }
+  .w-sm-6 {
+    width: 50%;
+  }
+  .w-sm-7 {
+    width: 58.33;
+  }
+  .w-sm-8 {
+    width: 66.66%;
+  }
+  .w-sm-9 {
+    width: 75%;
+  }
+  .w-sm-10 {
+    width: 83.33%;
+  }
+  .w-sm-11 {
+    width: 91.66%;
+  }
+  .w-sm-12 {
+    width: 100%;
+  }
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .btn2 {
+    padding-top: 80px;
+  }
+  .main-btn2 {
+    padding: 9px 27px;
+  }
+  .gallery .left-data h3 {
+    color: black;
+  }
+  .gallery .right-data h3 {
+    color: #c0aa83;
+    line-height: 60px;
+    padding-bottom: 20px;
+  }
+  .testi-body .testi-center {
+    padding: 0 25px;
+  }
+  .testi-center .title {
+    padding: 20px 0 0 0;
+  }
+  .testi-center .sub-title {
+    padding: 0 0 20px 0;
+  }
+  .testi-center .desc {
+    font-size: 18px;
+  }
+  .testi-center i {
+    font-size: 35px;
+    padding: 20px 0;
+  }
+  .left-box,
+  .right-box {
+    padding: 0 5px 0 5px;
+  }
+  .left-box a,
+  .right-box a {
+    padding: 10px 15px;
+  }
+  .discount .content p {
+    font-size: 20px;
+    color: var(--black);
+    padding: 35px 0;
+  }
+}
