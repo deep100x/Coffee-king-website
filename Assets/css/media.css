@@ -53,6 +53,15 @@
   footer .info .desc {
     padding: 0 60px 30px 0;
   }
+  .copyright .content {
+    margin-right: 200px;
+  }
+  .about {
+    padding: 90px 0 60px 0;
+  }
+  .f-weight6 {
+    font-weight: 500;
+  }
 }
 @media (max-width: 1200px) {
   .w-xl-1 {
@@ -113,6 +122,21 @@
   footer .info .desc {
     padding: 0 50px 30px 0;
   }
+  .sub-bar .subscribe,
+  .email,
+  .icon {
+    margin-bottom: 15px;
+    margin-right: 5px;
+  }
+  .about .content {
+    margin-bottom: 50px;
+  }
+  .pad {
+    padding: 150px 0 40px 0;
+  }
+  .products .p-card {
+    margin-bottom: 18px;
+  }
 }
 @media (max-width: 992px) {
   .w-lg-1 {
@@ -155,6 +179,9 @@
     max-width: 960px;
     margin: 0 auto;
   }
+  .about .content {
+    margin-bottom: 40px;
+  }
   .p-heading span::before {
     display: none;
   }
@@ -163,6 +190,9 @@
   }
   .main-btn2 {
     padding: 15px 45px;
+  }
+  .sale {
+    padding: 80px 0;
   }
   .gallery .left-data {
     padding-bottom: 65px;
@@ -187,11 +217,20 @@
   .right-box {
     padding: 0 35px 0 35px;
   }
+  .our-stores {
+    padding: 80px 0 30px 0;
+  }
   .discount .content {
     padding: 50px 60px;
   }
   .sub-bar {
     padding: 30px 60px;
+  }
+  .copyright .content {
+    margin-right: 100px;
+  }
+  .pad {
+    padding: 170px 0 40px 0;
   }
 }
 @media (max-width: 768px) {
@@ -238,11 +277,17 @@
   .btn2 {
     padding-top: 70px;
   }
+  .about .content {
+    margin-bottom: 30px;
+  }
   .main-btn2 {
     padding: 12px 36px;
   }
   .sale ul {
     column-count: 2;
+  }
+  .gallery .right-data h3 {
+    padding-top: 40px;
   }
   .testi-body .testi-center {
     padding: 0 45px;
@@ -264,6 +309,9 @@
   .right-box {
     padding: 0 25px 0 25px;
   }
+  .our-stores {
+    padding: 60px 0 20px 0;
+  }
   .discount .content h3 {
     font-size: 50px;
     padding-bottom: 38px;
@@ -273,6 +321,12 @@
   }
   footer .info .desc {
     padding: 0 30px 30px 0;
+  }
+  .copyright .content {
+    margin-right: 50px;
+  }
+  .pad {
+    padding: 200px 0 40px 0;
   }
 }
 @media (max-width: 576px) {
@@ -322,6 +376,12 @@
   .main-btn2 {
     padding: 9px 27px;
   }
+  .about .content {
+    margin-bottom: 20px;
+  }
+  .sale ul {
+    column-count: 1;
+  }
   .gallery .left-data h3 {
     color: black;
   }
@@ -329,6 +389,19 @@
     color: #c0aa83;
     line-height: 60px;
     padding-bottom: 20px;
+  }
+  .products .menu ul {
+    margin-bottom: 20px;
+  }
+  .products .menu li {
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    line-height: 17px;
+    padding: 10px 5px;
+  }
+  .gallery .left-data h3 {
+    font-size: 116px;
   }
   .testi-body .testi-center {
     padding: 0 25px;
@@ -366,4 +439,90 @@
   .heading {
     padding-bottom: 60px;
   }
+  .t-heading h2 {
+    line-height: 45px;
+    font-size: 40px;
+    padding-bottom: 52px;
+  }
+  .heading span {
+    line-height: 45px;
+    font-size: 40px;
+  }
+  .blog-info {
+    padding: 10px 0px;
+  }
+  .blog {
+    padding-top: 20px;
+  }
+  .blog-info ul li {
+    font-size: 18px;
+    padding: 22px 5px 22px 5px;
+  }
+  .blog .blog-info .day {
+    padding-right: 4px;
+  }
+  .copyright .content {
+    margin-right: 20px;
+  }
+  .copyright .content {
+    margin-right: 10px;
+  }
+  .copyright {
+    background-color: #1f1f1f;
+    padding: 5px 0 5px 0;
+  }
+  .topscroll {
+    padding: 4px 16px;
+  }
+  .pad {
+    padding: 230px 0 40px 0;
+  }
+  .email a {
+    margin-left: 0px;
+  }
+  .email input {
+    padding: 15px 0px;
+  }
+  .sub-bar {
+    padding: 20px 60px;
+  }
+  .sub-bar .subscribe,
+  .email,
+  .icon {
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+  .testimonial {
+    padding: 50px 0;
+  }
 }
+/* @media (max-width: 320px) {
+  .email input {
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+  .products .menu li {
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    line-height: 17px;
+    padding: 10px 10px;
+  }
+  .blog-info {
+    padding: 0;
+  }
+  .blog .blog-info .day {
+    font-size: 35px;
+    padding-right: 0px;
+  }
+  .blog .blog-info .date {
+    font-size: 15px;
+  }
+  .blog-info ul li {
+    font-size: 15px;
+    padding: 15px 2px 15px 2px;
+  }
+  .blog-info ul li i {
+    padding-right: 2px;
+  }
+} */

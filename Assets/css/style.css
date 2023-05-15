@@ -219,7 +219,8 @@ header a .fa-solid:hover {
   background-size: contain;
 }
 
-.about .content {
+.about {
+  padding: 90px 0;
 }
 
 .about .content .title {
@@ -394,6 +395,9 @@ header a .fa-solid:hover {
 /* <!-- ----------PRODUCTS ENDS HERE---------- --> */
 
 /* <!-- ----------SALE STARTS HERE---------- --> */
+.sale {
+  padding: 100px 0;
+}
 .sale .title {
   color: var(--black);
   font-size: 60px;
@@ -462,6 +466,9 @@ header a .fa-solid:hover {
 /* <!-- ----------SALE ENDS HERE---------- --> */
 
 /* <!-- ----------GALLERY STARTS HERE---------- --> */
+.gallery {
+  padding: 0 0 100px 0;
+}
 .left-data {
   background-image: url(../images/coffee-cup-1.png);
   background-position: right;
@@ -505,7 +512,9 @@ header a .fa-solid:hover {
   color: var(--white);
   border: 2px solid transparent;
 }
-
+.gallery-btn a:nth-child(1) {
+  margin-bottom: 10px;
+}
 .gallery .btn {
   margin: 0 20px 0 0;
   background-color: var(--black);
@@ -600,8 +609,11 @@ header a .fa-solid:hover {
 /* <!-- ----------TESTIMONIAL ENDS HERE---------- --> */
 
 /* <!-- ----------OUR-STORES STARTS HERE---------- --> */
+.our-stores {
+  padding: 100px 0 40px 0;
+}
 .store-image img {
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 /* <!-- ----------OUR-STORES ENDS HERE---------- --> */
@@ -616,7 +628,7 @@ header a .fa-solid:hover {
 
 .discount .content {
   background-color: var(--whitesmoke);
-  padding: 116px 115px;
+  padding: 109px 115px;
 }
 
 .discount .content h5 {
@@ -704,7 +716,7 @@ header a .fa-solid:hover {
   transition: var(--transition03);
 }
 
-.blog .blog-card:hover .title a {
+.blog .blog-content:hover .title a {
   color: var(--black);
 }
 
@@ -809,7 +821,7 @@ footer {
 
 .email {
   float: left;
-  padding: 7px 0 0 0;
+  padding: 18px 0px 0px;
 }
 
 .email input {
@@ -848,6 +860,7 @@ footer {
   padding: 15px 20px;
   margin: 0 1px;
   overflow: hidden;
+  display: inline-block;
 }
 
 .icon a i {
@@ -958,12 +971,13 @@ footer .location ul li:nth-child(4):hover a {
 
 /* COPYRIGHT */
 .copyright {
-  /* position: relative; */
   background-color: #1f1f1f;
-  padding: 40px 0 40px 0;
+  padding: 30px 0 30px 0;
 }
 
 .copyright .content {
+  margin-right: 200px;
+  margin-top: 23px;
   color: var(--white);
   transition: var(--transition03);
 }
@@ -978,9 +992,6 @@ footer .location ul li:nth-child(4):hover a {
 
 /* <!-- ----------CONTACTS FOOTER ENDS HERE---------- --> */
 .topscroll {
-  position: fixed;
-  right: 50px;
-  bottom: 20px;
   float: right;
   transition: var(--transition03);
   color: var(--black);

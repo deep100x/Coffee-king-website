@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="Assets/font/stylesheet.css" />
   <!-- FONT AWESOME ICON CSS -->
   <link rel="stylesheet" href="Assets/css/all.min.css" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- custom css -->
   <link rel="stylesheet" href="Assets/css/custom.css" />
   <!-- CSS -->
@@ -72,7 +74,7 @@
   <section class="about" id="about">
     <div class="container">
       <div class="row about-bg">
-        <div class="w-6 w-xl-12">
+        <div class="w-6 w-xl-12" data-aos="zoom-in">
           <div class="content">
             <span class="title">Who we are</span>
             <h3 class="sub-title">About market</h2>
@@ -86,7 +88,7 @@
               <img src="Assets/images/sign-1.png" alt="" />
           </div>
         </div>
-        <div class="w-6 w-xl-12">
+        <div class="w-6 w-xl-12" data-aos="zoom-in">
           <div class="row">
             <div class="w-6 w-sm-12">
               <div class="about-card">
@@ -251,7 +253,7 @@
           </div>
         </div>
         <div class="w-6 w-xxl-12 ">
-          <div class="sale-map">
+          <div class="sale-map" data-aos="zoom-in">
             <img src="Assets/images/map.png" alt="">
           </div>
         </div>
@@ -264,7 +266,7 @@
   <section class="gallery" id="gallery">
     <div class="container">
       <div class="row">
-        <div class="w-6  w-lg-12">
+        <div class="w-6  w-lg-12" data-aos="zoom-in">
           <div class="left-data">
             <h2 class=" f-weight6">More than</h2>
             <h3 class="f-weight6">5400</h3>
@@ -331,24 +333,23 @@
   <section class="our-stores" id="our-stores">
     <div class="container">
       <div class="row">
-        <div class="w-2 w-lg-4">
-          <div class="store-image"><img src="Assets/images/bakery.png" alt="">
-          </div>
+        <div class="w-2 w-lg-4 w-sm-6 store-image">
+          <img src="Assets/images/vintage.png" alt="">
         </div>
-        <div class="w-2 w-lg-4">
-          <div class="store-image"><img src="Assets/images/brandit.png" alt=""></div>
+        <div class="w-2 w-lg-4 w-sm-6 store-image">
+          <img src="Assets/images/coffe_logo2.png" alt="">
         </div>
-        <div class="w-2 w-lg-4">
-          <div class="store-image"><img src="Assets/images/coffe_logo2.png" alt=""></div>
+        <div class="w-2 w-lg-4 w-sm-6 store-image">
+          <img src="Assets/images/coffe_logo2.png" alt="">
         </div>
-        <div class="w-2 w-lg-4">
-          <div class="store-image"><img src="Assets/images/cupcake.png" alt=""></div>
+        <div class="w-2 w-lg-4 w-sm-6 store-image">
+          <img src="Assets/images/cupcake.png" alt="">
         </div>
-        <div class="w-2 w-lg-4">
-          <div class="store-image"><img src="Assets/images/restaurants.png" alt=""></div>
+        <div class="w-2 w-lg-4 w-sm-6 store-image">
+          <img src="Assets/images/restaurants.png" alt="">
         </div>
-        <div class="w-2 w-lg-4">
-          <div class="store-image"><img src="Assets/images/vintage.png" alt=""></div>
+        <div class="w-2 w-lg-4 w-sm-6 store-image">
+          <img src="Assets/images/vintage.png" alt="">
         </div>
       </div>
     </div>
@@ -363,7 +364,7 @@
           <div class="content discount-bg text-center">
             <h5 class="f-weight6">Special offer</h5>
             <h3 class="f-weight6">Get your discount</h3>
-            <img class="inline" src="Assets/images/card.png" alt="">
+            <img class="inline" data-aos="zoom-in" src="Assets/images/card.png" alt="">
             <p class="font16px">Morbi malesuada dui in iaculis lacinia. Duis laoreet ut
               liberonec
               tincidunt. Maecenas a
@@ -485,7 +486,7 @@
           </div>
           <div class="email">
             <input type="email" name="email" placeholder="Your email address" required>
-            <a class="btn" href="#">Subscribe</a>
+            <a class="btn inline-block" href="#">Subscribe</a>
           </div>
           <div class="icon">
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -513,12 +514,12 @@
             <div class="explore text-left">
               <h3 class="title">EXPLORE</h3>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="#main-banner">Home</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
               </ul>
             </div>
           </div>
@@ -540,20 +541,23 @@
         </div>
       </div>
     </div>
-    <div class="copyright text-center">
-      <a href="#" class="content inilne-block f-weight6"> Like-themes <span> © All
+    <div class="copyright d-flex justify-center text-center">
+      <a href="#" class="content  f-weight6"> Like-themes <span> © All
           Rights
           Reserved -
           2017</span></a>
-      <div class="scroll">
-        <a href="#main-banner" class="topscroll">
-          <i class="fa-solid fa-arrow-up"></i><br>TOP
-        </a>
-      </div>
+      <a href="#main-banner" class="topscroll">
+        <i class="fa-solid fa-arrow-up"></i><br> TOP
+      </a>
     </div>
   </footer>
   <!-- CONTACT FOOTER ENDS HERE -->
 
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
