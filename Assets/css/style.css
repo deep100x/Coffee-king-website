@@ -58,6 +58,9 @@ section {
   padding: 0 var(--gutter-width);
 }
 
+.align-self-stretch {
+  align-self: stretch;
+}
 /* <!-- ----------HEADER STARTS HERE---------- --> */
 header {
   position: absolute;
@@ -73,9 +76,8 @@ header .menu ul li {
   position: relative;
   padding: 15px 20px;
   gap: 20px;
-}
-header .menu ul li {
   cursor: pointer;
+  transition: var(--transition03);
 }
 header .menu ul li a {
   color: var(--white);
@@ -274,6 +276,9 @@ header a .fa-solid:hover {
   background-color: var(--black);
 }
 /* products-menu */
+.menu ul {
+  padding-bottom: 10px;
+}
 .products .menu li {
   font-size: 20px;
   cursor: pointer;
@@ -410,10 +415,8 @@ header a .fa-solid:hover {
   color: var(--black);
   background-color: var(--white);
 }
-.sale-map img {
-  margin: auto;
+.sale-map {
 }
-
 /* <!-- ----------SALE ENDS HERE---------- --> */
 
 /* <!-- ----------GALLERY STARTS HERE---------- --> */
@@ -501,6 +504,7 @@ header a .fa-solid:hover {
 .left-box,
 .right-box {
   padding: 0 55px 0 55px;
+  display: block;
 }
 .left-box a,
 .right-box a {
@@ -549,6 +553,7 @@ header a .fa-solid:hover {
 /* <!-- ----------OUR-STORES ENDS HERE---------- --> */
 
 /* <!-- ----------DISCOUNT STARTS HERE---------- --> */
+
 .discount-bg {
   background-image: url(../images/discount-bg.png);
   background-position: center;
@@ -559,6 +564,7 @@ header a .fa-solid:hover {
   background-color: var(--whitesmoke);
   padding: 109px 115px;
 }
+
 .discount .content h5 {
   font-size: 24px;
   color: var(--brown);
@@ -584,8 +590,12 @@ header a .fa-solid:hover {
   background-color: var(--white);
   border: 2px solid var(--black);
 }
+.discount-image {
+  height: 100%;
+}
 .discount-image img {
-  margin: auto;
+  width: 100%;
+  height: 100%;
 }
 /* <!-- ----------DISCOUNT ENDS HERE---------- --> */
 
@@ -718,7 +728,6 @@ footer {
   color: var(--black);
 }
 .email {
-  float: left;
   padding: 18px 0px 0px;
 }
 .email input {
@@ -744,7 +753,7 @@ footer {
   background-color: var(--brown);
 }
 .icon {
-  padding: 20px 0;
+  padding: 20px 0 0px 0;
 }
 .icon a {
   background-color: #d3c4a8;

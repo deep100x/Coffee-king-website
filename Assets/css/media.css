@@ -44,6 +44,12 @@
   .sale-info {
     padding-bottom: 50px;
   }
+  .sale-map img {
+    width: 100%;
+  }
+  .sale ul {
+    padding: 20px 0;
+  }
   .discount .content {
     padding: 90px 180px;
   }
@@ -58,9 +64,6 @@
   }
   .about {
     padding: 90px 0 60px 0;
-  }
-  .f-weight6 {
-    font-weight: 500;
   }
 }
 @media (max-width: 1200px) {
@@ -104,8 +107,20 @@
     max-width: 1140px;
     margin: 0 auto;
   }
+  .products .p-card .title {
+    font-size: 30px;
+  }
+  .products .p-card .desc {
+    font-size: 25px;
+  }
+  .products .p-card .price {
+    font-size: 30px;
+  }
   .products .p-card {
-    margin-bottom: 10px;
+    margin-bottom: 24px;
+  }
+  .sale ul li {
+    font-size: 25px;
   }
   .sale-info {
     padding-bottom: 50px;
@@ -134,8 +149,8 @@
   .pad {
     padding: 150px 0 40px 0;
   }
-  .products .p-card {
-    margin-bottom: 18px;
+  .icon {
+    padding: 0px 0 0px 0;
   }
 }
 @media (max-width: 992px) {
@@ -188,8 +203,11 @@
   .btn2 {
     padding-top: 60px;
   }
+  .p-heading {
+    padding: 25px 0 25px 0;
+  }
   .main-btn2 {
-    padding: 15px 45px;
+    padding: 15px 45px 23px 45px;
   }
   .sale {
     padding: 80px 0;
@@ -231,6 +249,9 @@
   }
   .pad {
     padding: 170px 0 40px 0;
+  }
+  .email {
+    padding: 5px 0px 0px;
   }
 }
 @media (max-width: 768px) {
@@ -281,7 +302,7 @@
     margin-bottom: 30px;
   }
   .main-btn2 {
-    padding: 12px 36px;
+    padding: 20px 36px 20px 36px;
   }
   .sale ul {
     column-count: 2;
@@ -374,7 +395,7 @@
     padding-top: 80px;
   }
   .main-btn2 {
-    padding: 9px 27px;
+    padding: 15px 27px 20px 27px;
   }
   .about .content {
     margin-bottom: 20px;
@@ -402,6 +423,9 @@
   }
   .gallery .left-data h3 {
     font-size: 116px;
+  }
+  .sale ul {
+    padding: 10px 0;
   }
   .testi-body .testi-center {
     padding: 0 25px;
@@ -475,16 +499,16 @@
     padding: 4px 16px;
   }
   .pad {
-    padding: 230px 0 40px 0;
+    padding: 160px 0 40px 0;
   }
   .email a {
     margin-left: 0px;
   }
   .email input {
-    padding: 15px 0px;
+    padding: 15px 5px;
   }
   .sub-bar {
-    padding: 20px 60px;
+    padding: 20px 40px;
   }
   .sub-bar .subscribe,
   .email,
@@ -496,7 +520,7 @@
     padding: 50px 0;
   }
 }
-/* @media (max-width: 320px) {
+@media (max-width: 320px) {
   .email input {
     padding: 12px 16px;
     font-size: 15px;
@@ -507,6 +531,9 @@
     display: block;
     line-height: 17px;
     padding: 10px 10px;
+  }
+  .discount .content {
+    padding: 50px 30px;
   }
   .blog-info {
     padding: 0;
@@ -525,4 +552,27 @@
   .blog-info ul li i {
     padding-right: 2px;
   }
-} */
+  footer .location ul {
+    font-size: 17px;
+  }
+  .email input {
+    padding: 15px 10px;
+  }
+  .copyright .content {
+    font-size: 17px;
+    margin-right: 5px;
+  }
+  .main-btn2 {
+    padding: 15px 27px 20px 27px;
+  }
+  .products .menu li {
+    padding: 10px 5px;
+  }
+  .left-box,
+  .right-box {
+    display: none;
+  }
+  .pad {
+    padding: 230px 0 40px 0;
+  }
+}
